@@ -1,0 +1,21 @@
+body{
+    margin: 30px;
+    border: 2px solid blue;
+
+}
+h1{
+    color: blue;
+    margin: 4%;
+    padding-left: 2%;
+    border: 1px solid greenyellow;
+}
+p{
+    margin: 4%;
+    padding-left: 7%;
+    border: 1px solid black;
+}
+
+.bleu{          
+    color: aqua;
+    background-color: blue;
+}
