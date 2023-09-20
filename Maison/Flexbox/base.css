@@ -1,0 +1,44 @@
+.item{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #7971ea;
+    border: 5px #443ea0;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.item:hover{
+    opacity: 0.7;
+}
+.container{
+    background-color: gainsboro;
+}
+
+.header, .content, .sidebar, .footer{
+    padding: 26px 34px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: brown;
+    font-weight: lighter;
+}
+.content{
+    background-color: palevioletred;
+}
+
+.sidebar{
+    background-color: #7971ea;
+}
+
+.footer{
+    background-color: burlywood;
+}
+
+.center{
+    text-align: center;
+}
