@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="number" placeholder="Entrez votre age" id="nb">
+        <button type="button" onclick="IsSupToZero();">Envoyer</button>
+        <p id="Result"></p>
+          
+        <script>
+
+            function IsSupToZero(){
+                var number = document.getElementById("nb").value;   //Recuperer la valeur
+                if(number>0){
+                    document.getElementById("Result").innerHTML= "C'est supérieur"
+                }else if(number<0){
+                    document.getElementById("Result").innerHTML= "C'est inférieur"
+                }else{
+                    document.getElementById("Result").innerHTML= "GGWP"
+                }
+            }
+        </script>
+    </body>
+</html>

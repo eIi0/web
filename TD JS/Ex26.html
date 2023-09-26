@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="number" placeholder="Entrez votre age" id="age">
+        <button type="button" onclick="IsMajeur();">Envoyer</button>
+        <p id="Majeur"></p>
+          
+        <script>
+
+            function IsMajeur(){
+                var age = document.getElementById("age").value;   //Recuperer la valeur
+                if(age>=18){
+                    document.getElementById("Majeur").innerHTML= "Vous pouvez voter"
+                }else{
+                    document.getElementById("Majeur").innerHTML= "Vous ne pouvez pas voter"
+                }
+            }
+        </script>
+    </body>
+</html>

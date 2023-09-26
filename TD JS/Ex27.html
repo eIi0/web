@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="number" placeholder="Entrez un nombre" id="number">
+        <button type="button" onclick="numbertomultiplicate();">Envoyer</button>
+        <p id="affichage"></p>
+          
+        <script>
+
+            function numbertomultiplicate(){
+                var number = document.getElementById("number").value;   //Recuperer la valeur
+                let tab = []
+
+                for(let i=0; i<10; i++){
+                    tab.push(number*i);
+                }
+                document.getElementById("affichage").innerHTML= tab;
+            }
+        </script>
+    </body>
+</html>
